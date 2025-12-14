@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Tag(
+        name = "Tasks",
+        description = "Endpoints for managing tasks"
+)
 @RestController
 @RequestMapping("/api/task")
 public class TaskController {

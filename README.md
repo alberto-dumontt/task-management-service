@@ -83,9 +83,9 @@ The Task Management Service provides standard **CRUD (Create, Read, Update, Dele
 |------------|------|------------|
 | GET | `/` | Retrieves all tasks |
 | GET | `/{id}` | Retrieves a task by MongoDB ID |
-| POST | `/` | Creates a new task |
-| PUT | `/{id}` | Updates an existing task |
-| DELETE | `/{id}` | Deletes a task by ID |
+| POST | `/create` | Creates a new task |
+| PUT | `/update/{id}` | Updates an existing task |
+| DELETE | `/delete/{id}` | Deletes a task by ID |
 
 ---
 
